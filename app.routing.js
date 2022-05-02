@@ -11,5 +11,6 @@ router.get('/', fn.mostrar_frase)
 router.post('/', fn.recoge_datos)
 
 router.get('/crear_locales', fData.crear_locales)
+router.get('/crear_bebidas', fData.crear_bebidas)
 
 module.exports = router;
